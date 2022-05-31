@@ -1,0 +1,8 @@
+@mixin btn($background) {
+    background-color: $background;
+    transition: background-color .2s ease-in;
+
+    &:hover {
+      background-color: lighten($background, 15%);
+    }
+}
